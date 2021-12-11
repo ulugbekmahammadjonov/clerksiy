@@ -54,7 +54,13 @@ body{
 .site-nav-item:not(:last-child){
     margin-right: 24px;
 }
+.site-nav-item:hover{
+    opacity: 0.8;
+}
 
+.site-nav-item:active{
+    opacity: 0.6;
+}
 .site-nav-link{
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
